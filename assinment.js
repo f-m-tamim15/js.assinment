@@ -4,7 +4,7 @@
 
 
 // No 1:  kilometer to meter  
-// budeget calculator 
+
 
 function kilometerToMeter(kilo){
 
@@ -20,7 +20,7 @@ function kilometerToMeter(kilo){
 }
 
 
-
+kilometerToMeter();
 
 
 
@@ -37,7 +37,7 @@ function budgetCalculator(watch,phone,laptop){
     var tortalBudget = watchPrice + phonePrice + laptopPrice;
     return tortalBudget;
 }
-
+budgetCalculator();
 
 
 // No 3 : hotel cost 
@@ -61,11 +61,12 @@ function hotelCost(day){
 
 }
 
+hotelCost();
     
 // no 4 : mega freind 
 
 
-function megaFreind(arr){
+function megaFriend(arr){
     
   
     var arrSplit = arr.split(' ');
@@ -79,5 +80,6 @@ function megaFreind(arr){
 }
 
 
+megaFreind();
     var result =  megaFreind("tamim fm he");
     console.log(result);
