@@ -1,6 +1,5 @@
 
-//  link https://github.com/f-m-tamim15/js.assinment/blob/main/assinment.js
-
+// link https://github.com/f-m-tamim15/js.assinment
 
 
 // No 1:  kilometer to meter  
@@ -31,11 +30,13 @@ function budgetCalculator(watch,phone,laptop){
     if (watch<0 || phone<0 || laptop <0 ){
         return "invalid input ";
     }
+    else{
     var watchPrice = watch*50;
     var phonePrice = phone*100;
     var laptopPrice = laptop*500;
     var tortalBudget = watchPrice + phonePrice + laptopPrice;
     return tortalBudget;
+    }
 }
 budgetCalculator();
 
@@ -81,5 +82,4 @@ function megaFriend(arr){
 
 
 megaFreind();
-    var result =  megaFreind("tamim fm he");
-    console.log(result);
+    
