@@ -1,4 +1,7 @@
 
+//  link https://github.com/f-m-tamim15/js.assinment/blob/main/assinment.js
+
+
 
 // No 1:  kilometer to meter  
 // budeget calculator 
@@ -8,13 +11,16 @@ function kilometerToMeter(kilo){
     if(kilo<0  ){
         return "invalid input";
     }
-    else if(kilo == "number"){
-        return "string";
-    }
+   
+    else{
     var meter = kilo*1000;  // 1 kilometer = 1000 meter
-
+    
     return meter;
+    }
 }
+var result =  kilometerToMeter(-1)
+console.log(result);
+
 
 
 
@@ -55,12 +61,8 @@ function hotelCost(day){
     }
 
 }
-var result =  hotelCost(250)
-console.log(result);
 
-function megaFriend(Math.max(arr[])){
     
-}
-
+// no 4 : mega freind 
 
 
