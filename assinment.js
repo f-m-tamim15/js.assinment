@@ -18,8 +18,7 @@ function kilometerToMeter(kilo){
     return meter;
     }
 }
-var result =  kilometerToMeter(-1)
-console.log(result);
+
 
 
 
@@ -66,3 +65,19 @@ function hotelCost(day){
 // no 4 : mega freind 
 
 
+function megaFreind(arr){
+    
+  
+    var arrSplit = arr.split(' ');
+    var longestWord = 0;
+    for(var i = 0; i < arrSplit.length; i++){
+      if(arrSplit[i].length > longestWord){
+      longestWord = arrSplit[i].length;
+       }
+    }
+    return longestWord;
+}
+
+
+    var result =  megaFreind("tamim fm he");
+    console.log(result);
